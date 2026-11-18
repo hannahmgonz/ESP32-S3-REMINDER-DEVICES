@@ -1,2 +1,2 @@
-# REMINDER-NET
+# ESP32-S3-REMINDER-DEVICES
 IoT for reminders
