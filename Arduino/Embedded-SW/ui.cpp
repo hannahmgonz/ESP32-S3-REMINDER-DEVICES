@@ -257,7 +257,7 @@ void ui_show_reminder(const char *reminderTime, float battery) {
   label(s_content, REMINDER_TITLE, &lv_font_montserrat_20, C_CREAM, 184);
 
   lv_obj_t *btn = lv_button_create(s_content);
-  lv_obj_set_size(btn, 140, 56);
+  lv_obj_set_size(btn, 140, 84);
   lv_obj_align(btn, LV_ALIGN_BOTTOM_MID, 0, -14);
   lv_obj_set_style_radius(btn, LV_RADIUS_CIRCLE, 0);
   lv_obj_set_style_bg_color(btn, C_MUSTARD, 0);
